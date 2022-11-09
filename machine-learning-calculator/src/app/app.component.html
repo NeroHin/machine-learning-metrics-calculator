@@ -1,82 +1,56 @@
 <div>
-  <h1>
-    Machine Learning Calculator
-  </h1>
+  <h1 class="text-center">Machine Learning Calculator</h1>
   <!-- metrics input -->
   <section class="input-group-center">
     <nz-input-number-group>
-      <nz-input-number
-        nzSize="large"
-        nzPlaceHolder="TN"
-      ></nz-input-number>
+      <nz-input-number nzSize="large" nzPlaceHolder="TN"></nz-input-number>
     </nz-input-number-group>
     <nz-input-number-group>
-      <nz-input-number
-        nzSize="large"
-        nzPlaceHolder="FP"
-      ></nz-input-number>
+      <nz-input-number nzSize="large" nzPlaceHolder="FP"></nz-input-number>
     </nz-input-number-group>
   </section>
   <section class="input-group-center">
     <nz-input-number-group>
-      <nz-input-number
-        nzSize="large"
-        nzPlaceHolder="FN"
-      ></nz-input-number>
+      <nz-input-number nzSize="large" nzPlaceHolder="FN"></nz-input-number>
     </nz-input-number-group>
     <nz-input-number-group>
-      <nz-input-number
-        nzSize="large"
-        nzPlaceHolder="TP"
-      ></nz-input-number>
+      <nz-input-number nzSize="large" nzPlaceHolder="TP"></nz-input-number>
     </nz-input-number-group>
-  <!-- Result table -->
   </section>
-  <section>
+
+  <!-- Result table -->
+  <section class="result-table">
     <nz-table>
       <thead>
         <tr>
-          <th>
-            Metrics
-          </th>
-          <th>
-            Sensitivity
-          </th>
-          <th>
-            Specificity
-          </th>
-          <th>
-            Precision
-          </th>
-          <th>
-            Negative Predictive Value
-          </th>
-          <th>
-            False Positive Rate
-          </th>
-          <th>
-            False Discovery Rate
-          </th>
-          <th>
-            False Negative Rate
-          </th>
-          <th>
-            Accuracy
-          </th>
-          <th>
-            F1 Score
-          </th>
-          <th>
-            Matthews Correlation Coefficient
-          </th>
+          <th>Model</th>
+          <th>Sensitivity</th>
+          <th>Specificity</th>
+          <th>Precision</th>
+          <th>Negative Predictive Value</th>
+          <th>False Positive Rate</th>
+          <th>False Discovery Rate</th>
+          <th>False Negative Rate</th>
+          <th>Accuracy</th>
+          <th>F1 Score</th>
+          <th>Matthews Correlation Coefficient</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-
+          <td>model 1</td>
+          <td>0.5</td> <!-- Sensitivity -->
+          <td>0.5</td> <!-- Specificity -->
+          <td>0.5</td> <!-- Precision -->
+          <td>0.5</td> <!-- Negative Predictive Value -->
+          <td>0.5</td> <!-- False Positive Rate -->
+          <td>0.5</td> <!-- False Discovery Rate -->
+          <td>0.5</td> <!-- False Negative Rate -->
+          <td>0.5</td> <!-- Accuracy -->
+          <td>0.5</td> <!-- F1 Score -->
+          <td>0.5</td> <!-- Matthews Correlation Coefficient -->
         </tr>
       </tbody>
     </nz-table>
   </section>
 </div>
-
