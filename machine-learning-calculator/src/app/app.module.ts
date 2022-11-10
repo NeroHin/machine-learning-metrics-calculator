@@ -11,12 +11,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzInputNumberModule } from 'ng-zorro-antd/input-number';
 import { NzTableModule } from 'ng-zorro-antd/table';
+import { ConfusionMatrixInputComponent } from './confusion-matrix-input/confusion-matrix-input.component';
+import { ResultTableComponent } from './result-table/result-table.component';
 
 registerLocaleData(zh);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ConfusionMatrixInputComponent,
+    ResultTableComponent
   ],
   imports: [
     BrowserModule,
