@@ -1,4 +1,4 @@
-# machine-learning-metrics-caculator
+# machine-learning-metrics-calculator
 A web-base calculator to calculate the metics with confusion matrix, such as recall, accuracy, precision, etc. 
 
 
@@ -21,3 +21,8 @@ A web-base calculator to calculate the metics with confusion matrix, such as rec
 - [ ]  save the result to table
 - [ ]  edit each result name 
 - [ ]  output to csv
+
+
+# Reference
+- [online confusion matrix](https://onlineconfusionmatrix.com/)
+- 
